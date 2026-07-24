@@ -1,0 +1,13 @@
+config {
+  type: "table",
+  schema: "w_tashiro",
+  description: "テスト用：table_aに依存"
+}
+
+SELECT
+  id,
+  item,
+  quantity,
+  quantity * 100 AS total_price
+FROM ${ref("table_a")}
+WHERE quantity > 5

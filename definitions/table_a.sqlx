@@ -1,0 +1,14 @@
+config {
+  type: "table",
+  schema: "w_tashiro",
+  description: "テスト用ベーステーブル"
+}
+
+SELECT
+  1 AS id,
+  "apple" AS item,
+  10 AS quantity
+UNION ALL
+SELECT 2, "banana", 5
+UNION ALL
+SELECT 3, "orange", 8
