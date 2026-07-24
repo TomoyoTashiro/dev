@@ -1,3 +1,0 @@
-git勉強会ハンズオン
-テスト中
-test.bbb aaa
