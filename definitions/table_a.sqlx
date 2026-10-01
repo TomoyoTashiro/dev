@@ -5,7 +5,7 @@ config {
 }
 
 SELECT
-  1 AS id,
+  2 AS id,
   "apple" AS item,
   10 AS quantity
 UNION ALL

@@ -1,7 +1,7 @@
 config {
   type: "table",
   schema: "w_tashiro",
-  description: "テスト用：table_aに依存"
+  description: "テスト用：table_aに依存_"
 }
 
 SELECT
